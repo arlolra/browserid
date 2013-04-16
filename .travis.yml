@@ -10,6 +10,7 @@ before_install:
 
 node_js:
  - 0.8
+ - 0.10
 
 notifications:
   irc:
