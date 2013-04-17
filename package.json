@@ -10,7 +10,7 @@
         "connect": "1.7.2",
         "convict": "0.0.6",
         "cjson": "0.0.6",
-        "client-sessions": "0.0.9",
+        "client-sessions": "0.1.1",
         "cookies": "0.3.6",
         "connect-cachify": "0.0.13",
         "connect-cookie-session": "0.0.2",
@@ -54,7 +54,7 @@
         "node-inspector": "0.2.0beta3"
     },
     "scripts": {
-        "preinstall": "npm install lockdown && node ./node_modules/lockdown/lockdown.js",
+        "preinstall": "npm install lockdown && node ./node_modules/.bin/lockdown",
         "postinstall": "node ./scripts/postinstall.js",
         "postupdate": "node ./scripts/postinstall.js",
         "test": "./scripts/test",
